@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav .navbar-collapse .navbar-nav .nav-item .nav-link{
+    font-weight: bolder;
+}
+.navbar-brand{
+    margin-left: 80px;
+}
+nav .navbar-collapse .navbar-nav .nav-item  {
+    margin-left: 50px;
+   
+}
+nav .navbar-collapse .navbar-nav .nav-item:is(:hover){
+    
+    a{color:rgb(98, 3, 156) ;}  
+}
+
+
+nav .navbar-collapse .navbar-nav .nav-item:active{
+    color: rgb(98, 3, 156);
+    
+}
+.nav-link{
+    display: inline-block;
+    position: relative;
+}
+.nav-link:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(98, 3, 156);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.nav-link:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+
+/* luminar banner */
+.luminar-banner{
+    display: flex;
+    
+}
+.luminar-banner h1{
+    color:rgb(98, 3, 156)  ;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.luminar-banner h2{
+    color:rgb(98, 3, 156) ;
+    font-weight: 600;
+}
+.banner-h p{
+    font-weight: bolder;
+}
+.banner-h{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#banner{
+    background-color: rgb(219, 207, 228);
+}
+.education-banner{
+    display: flex;
+    margin-top: 100px;
+}
+.education-service{
+    width: 40%;
+    margin-left: 100px;
+    overflow-y: scroll;
+    height: 500px;
+
+}
+.education-image{
+    margin-left: 150px;
+}
+.education-service ul li{
+    list-style: none;
+    
+}
+.education-service ul li{
+    
+    
+    
+            padding: 10px 30px;
+            background-image: url('./image/marker.svg');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 30px;
+}
+.education-service h1{
+    color:rgb(98, 3, 156) ;
+    font-size:40px;
+    font-family:  'Roboto', sans-serif;
+    margin-bottom: 10px;
+    padding-right: 2px;
+}
+.education-service p{
+    text-align: justify;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+.education-service h3,h2{
+    margin-bottom: 10px;
+}
+.why-prefer-image img{
+    width: 100%;
+}
+.why-prefer-details{
+    position: relative;
+    top: -394px;
+    background-color: rgba(97, 3, 156, 0.426);
+    height: 394px;
+}
+.why-prefer-details  h1{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.why-prefer-details ul{
+    display: flex;
+    list-style-type: none;
+    
+    justify-content: space-evenly;
+}
+.companies-count{
+    width: 100px;
+    height: 100px;
+}
+.why-prefer-details p{
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.why-prefer-details h1 img{
+    filter: brightness(1) invert(1);
+    width: 80px;
+height: 50px;
+}
+.our-team .header{
+    margin-top: -350px;
+}
+.our-team .header h1{
+    text-align: center;
+    color:rgb(98, 3, 156)  ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+.team .row .col-3 .team-member img{
+width: 150px;
+border-radius: 50%;
+height:150px;
+position: relative;
+top: -10px;
+left: -10px;
+
+}
+.team .row .col-3 .team-member{
+    background-color:white  ;
+    border-radius: 50%;
+    border: 10px solid rgb(98, 3, 156);
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+    margin-top: 10px;
+    
+}
+.team .row .col-3{
+    background: linear-gradient(to top rgb(98, 3, 156)50%,rgb(255,255,255)50%);
+    background-size: 200% 100%;
+    
+}
+.team .row .col-3:hover{
+    img{
+        scale: 0.7;
+        transition: all 0.8s;
+    }
+    .team-member-social-media a i{
+        color: black;
+        transition: all 0.5s;
+        background-size: 100% 200%;
+    }
+   border-radius: 30px;
+    box-shadow: 2px 3px 5px black;
+    transition: all 0.6s;
+}
+.team .row .col-3 h3,p{
+    text-align: center;
+    margin-top: 70px;
+}
+.team .row .col-3{
+    background: linear-gradient(to top rgb(98, 3, 156)50%,rgb(255,255,255)50%);
+    background-size: 200% 100%;
+    
+}
+.team .row .col-3:hover{
+    background-position: right bottom;
+
+
+}
+.team-member-social-media a i{
+    color: transparent;
+}
+.why-wait img{
+    width: 100%;
+}
+.why-wait-details{
+    position: relative;
+    top: -400px;
+    
+}
+.why-wait-details h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
+    text-align: center;
+    font-size: 45px;
+    margin-left:100px
+}
+.why-wait-details p{
+    color: rgb(102, 31, 0);
+    margin-top: 50px;
+}
+.why-wait-details p a{
+    background-color: white;
+    font-weight: 700;
+    color:rgb(98, 3, 156) ;
+    
+}
+.why-wait-details p a:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    color: rgb(98, 3, 156);
+}
+.why-wait{
+    margin-top: 50px;
+}
+.footer .row{
+    margin-top: -250px;
+}
+.footer .row .footer-social-media{
+  margin-left: -10px;
+}
+.footer-logo{
+    display: flex;
+    margin-top: 10px;
+}
+.footer-logo img{
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
+}
+.footer .row .col-3 h5{
+    border-bottom:1px solid rgb(98, 3, 156);
+    color: rgb(98, 3, 156);
+}
+.footer .footer-course p a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.745);
+    font-weight: lighter;
+    
+}
+.footer-course p{
+    text-align:justify;
+    line-height: 20px;
+    
+}
+.footer-course p:hover{
+    border-bottom: 1px solid  rgb(98, 3, 156);
+}
+.footer .row .col-3 h6{
+    color:rgb(98, 3, 156) ;
+}
+.footer p a{
+    color: rgb(98, 3, 156);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.footer .row .col-3 p{
+    font-weight: lighter;
+    text-align: justify;
+}
